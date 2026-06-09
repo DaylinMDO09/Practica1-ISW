@@ -6,7 +6,7 @@ namespace Practica1_ISW.Controllers
     [Route("api/[controller]")]
     public class AnalizarNumeroController : Controller
     {
-        [HttpGet("AnalizarNumeros")]
+        [HttpGet("Analizar Numeros")]
         public IActionResult AnalizarNumero(int numero)
         {
             bool esPar = numero % 2 == 0;

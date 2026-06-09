@@ -34,7 +34,7 @@ namespace Practica1_ISW.Controllers
                 categoria = "Obesidad";
             }
 
-            return Ok($"El IMC es {imc:F2} y la categoría es {categoria}.");
+            return Ok($"El Indice de masa corporal es de {imc:F2} y la categoría es {categoria}.");
         }
     }
 }
