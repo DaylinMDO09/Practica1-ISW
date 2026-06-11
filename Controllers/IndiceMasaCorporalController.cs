@@ -6,7 +6,7 @@ namespace Practica1_ISW.Controllers
     [Route("api/[controller]")]
     public class IndiceMasaCorporalController : Controller
     {
-        [HttpGet("Calcular Indice de Masa Corporal")]
+        [HttpGet("CalcularIndiceMasaCorporal")]
         public IActionResult CalcularIndiceMasaCorporal(double peso, double altura)
         {
             if (altura <= 0)
